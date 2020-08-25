@@ -48,7 +48,7 @@ const questions = ([
     //ENTER CONTACT INFORMATION FOR ADDITIONAL QUESTIONS
     //GITHUB
     {
-        name: "projectGithub",
+        name: "projectGitHub",
         message: "Please enter the URL of your GitHub profile."
     },
     //EMAIL ADDRESS
