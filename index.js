@@ -1,4 +1,4 @@
-//NODE MODULES
+//REQUIRED NODE MODULES
 const inquirer = require("inquirer");
 const fs = require("fs");
 
@@ -57,23 +57,18 @@ const questions = ([
     },
 ]);
 
-//FUNCTION TO BEGIN README.txt QUESTIONS IN COMMAND LINE
-inquirer.prompt(questions);
-
-
-// function to write README file
-fs.writeFile("README.txt", err => {
-    if(err){
-        console.log(err);
-    }else{
-        console.log("success");
-    }
+//FUNCTION TO BEGIN README.md QUESTIONS AND PRINT RESPONSES TO README.md FILE
+inquirer.prompt(questions).then(answers => {
+    fs.writeFileSync("README.md", (`# ${answers.projectTitle}`) + '\n', function(err) {       
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Success.");
+    })
+    fs.appendFileSync("README.md", (`## ${answers.projectDescription}`) + '\n', function(err) {       
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Success.");
+    })
 });
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();

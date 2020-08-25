@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "file-system": "^2.2.2",
     "inquirer": "^6.5.2"
   }
 }
