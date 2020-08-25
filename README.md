@@ -1,28 +1,23 @@
-# The Lors Project 
+# The Lors Project [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
  
 ## Project Description 
  
- desc 
- 
- 
-## Badge 
- 
- [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
+ It does things 
  
  
 ## Table of Contents 
  
- [Installation](#installation), [Usage](#usage), [Credits](#credits), [Tests](#tests), [My GitHub Profile](#my-github-profile), [My Email Address](#my-email-address), [License](#license) 
+ [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
  
  
 ## Installation 
  
- do it 
+ Do it 
  
  
 ## Usage 
  
- do it 
+ Do it 
  
  
 ## Credits 
@@ -32,7 +27,7 @@
  
 ## Tests 
  
- it makes readmes 
+ Makes readmes 
  
  
 ## My GitHub Profile 
@@ -42,7 +37,7 @@
  
 ## My Email Address 
  
- no 
+ cec613@comcast.net 
  
  
 ## License 

@@ -17,7 +17,7 @@ const questions = ([
     //ENTER A BADGE
     {
         name: "projectBadge",
-        message: "Please enter a badge to add to your README.md file."
+        message: "Please enter a badge URL to add to your README.md file."
     },
     //ENTER SECTIONS OF THE TABLE OF CONTENTS
     {
@@ -72,7 +72,7 @@ const questions = ([
 
 //FUNCTION TO BEGIN README.md QUESTIONS AND PRINT RESPONSES TO README.md FILE
 inquirer.prompt(questions).then(answers => {
-    fs.writeFileSync("README.md", (`# ${answers.projectTitle} + ${answers.projectBadge} \n \n`))
+    fs.writeFileSync("README.md", (`# ${answers.projectTitle} ${answers.projectBadge} \n \n`))
     fs.appendFileSync("README.md", (`## Project Description \n \n ${answers.projectDescription} \n \n \n`))
     fs.appendFileSync("README.md", (`## Table of Contents \n \n ${answers.projectTOC} \n \n \n`))
     fs.appendFileSync("README.md", (`## Installation \n \n ${answers.projectInstall} \n \n \n`))
