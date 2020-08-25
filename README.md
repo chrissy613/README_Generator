@@ -1,33 +1,33 @@
-# The Lors Project [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
+# The README Generator Project [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
  
 ## Project Description 
  
- It does things 
+ This application streamlines the creation of detailed README.md files to improve the presentation of any project. 
  
  
 ## Table of Contents 
  
- [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
+ [Installation](#installation), [Usage](#usage), [Credits](#credits), [Tests](#tests), [My GitHub Profile](#my-github-profile), [My Email Address](#my-email-address), [License](#license) 
  
  
 ## Installation 
  
- Do it 
+ To install this application, you must run two seperate commands in your command line within the same folder as the index.js. Please run "npm install inquirer" and "npm install fs" to make sure this app works after grabbing it off GitHub. 
  
  
 ## Usage 
  
- Do it 
+ To use this application, you must get to the folder that index.js is in and run "node index.js" in your command line. You will then will in the question prompts with relevant information. After the prompts are complete a README.md file is created within the same folder.  
  
  
 ## Credits 
  
- Chris Crook 
+ Christopher Crook 
  
  
 ## Tests 
  
- Makes readmes 
+ You can test this application by running "node index.js" and create your own README.md file. 
  
  
 ## My GitHub Profile 
@@ -37,7 +37,7 @@
  
 ## My Email Address 
  
- cec613@comcast.net 
+ cec213@scarletmail.rutgers.edu 
  
  
 ## License 
