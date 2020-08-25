@@ -72,9 +72,8 @@ const questions = ([
 
 //FUNCTION TO BEGIN README.md QUESTIONS AND PRINT RESPONSES TO README.md FILE
 inquirer.prompt(questions).then(answers => {
-    fs.writeFileSync("README.md", (`# ${answers.projectTitle} \n \n`))
+    fs.writeFileSync("README.md", (`# ${answers.projectTitle} + ${answers.projectBadge} \n \n`))
     fs.appendFileSync("README.md", (`## Project Description \n \n ${answers.projectDescription} \n \n \n`))
-    fs.appendFileSync("README.md", (`## Badge \n \n ${answers.projectBadge} \n \n \n`))
     fs.appendFileSync("README.md", (`## Table of Contents \n \n ${answers.projectTOC} \n \n \n`))
     fs.appendFileSync("README.md", (`## Installation \n \n ${answers.projectInstall} \n \n \n`))
     fs.appendFileSync("README.md", (`## Usage \n \n ${answers.projectUsage} \n \n \n`))
