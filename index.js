@@ -14,6 +14,11 @@ const questions = ([
         name: "projectDescription",
         message: "Please enter a short description of your project."
     },
+    //ENTER A BADGE
+    {
+        name: "projectBadge",
+        message: "Please enter a badge to add to your README.md file."
+    },
     //ENTER SECTIONS OF THE TABLE OF CONTENTS
     {
         name: "projectTOC",
@@ -38,7 +43,7 @@ const questions = ([
     //ENTER TESTS
     {
         name: "projectTests",
-        message: "fkjsahdf"
+        message: "Please enter an example of the function of your application."
     },
     //ENTER CONTACT INFORMATION FOR ADDITIONAL QUESTIONS
     //GITHUB
@@ -69,12 +74,13 @@ const questions = ([
 inquirer.prompt(questions).then(answers => {
     fs.writeFileSync("README.md", (`# ${answers.projectTitle} \n \n`))
     fs.appendFileSync("README.md", (`## Project Description \n \n ${answers.projectDescription} \n \n \n`))
+    fs.appendFileSync("README.md", (`## Badge \n \n ${answers.projectBadge} \n \n \n`))
     fs.appendFileSync("README.md", (`## Table of Contents \n \n ${answers.projectTOC} \n \n \n`))
     fs.appendFileSync("README.md", (`## Installation \n \n ${answers.projectInstall} \n \n \n`))
     fs.appendFileSync("README.md", (`## Usage \n \n ${answers.projectUsage} \n \n \n`))
     fs.appendFileSync("README.md", (`## Credits \n \n ${answers.projectCredits} \n \n \n`))
     fs.appendFileSync("README.md", (`## Tests \n \n ${answers.projectTests} \n \n \n`))
     fs.appendFileSync("README.md", (`## My GitHub Profile \n \n ${answers.projectGitHub} \n \n \n`))
-    fs.appendFileSync("README.md", (`## My Email Address \n \n ${answers.projectEmail} \n \n`))
+    fs.appendFileSync("README.md", (`## My Email Address \n \n ${answers.projectEmail} \n \n \n`))
     fs.appendFileSync("README.md", (`## License \n \n ${answers.projectLicense} \n`))
 });

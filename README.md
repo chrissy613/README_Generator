@@ -1,8 +1,13 @@
-# Lors 
+# The Lors Project 
  
 ## Project Description 
  
- it do 
+ desc 
+ 
+ 
+## Badge 
+ 
+ [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
  
  
 ## Table of Contents 
@@ -12,7 +17,7 @@
  
 ## Installation 
  
- it do  
+ do it 
  
  
 ## Usage 
@@ -22,12 +27,12 @@
  
 ## Credits 
  
- chris 
+ Chris Crook 
  
  
 ## Tests 
  
- mh 
+ it makes readmes 
  
  
 ## My GitHub Profile 
@@ -38,6 +43,7 @@
 ## My Email Address 
  
  no 
+ 
  
 ## License 
  
