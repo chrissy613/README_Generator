@@ -17,7 +17,7 @@
  
 ## Usage 
  
- To use this application, you must get to the folder that index.js is in and run "node index.js" in your command line. You will then will in the question prompts with relevant information. After the prompts are complete a README.md file is created within the same folder.  
+ To use this application, you must get to the folder that index.js is in and run "node index.js" in your command line. You will then fill in the question prompts with relevant information. After the prompts are complete a README.md file is created within the same folder.  
  
  
 ## Credits 
