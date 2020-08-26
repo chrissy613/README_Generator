@@ -7,17 +7,17 @@
  
 ## Table of Contents 
  
- [Installation](#installation), [Usage](#usage), [Credits](#credits), [Tests](#tests), [My GitHub Profile](#my-github-profile), [My Email Address](#my-email-address), [License](#license) 
+ [Installation](#installation) [Usage](#usage) [Credits](#credits) [Tests](#tests) [My GitHub Profile](#my-github-profile) [My Email Address](#my-email-address) [License](#license) 
  
  
 ## Installation 
  
- To install this application, you must run two seperate commands in your command line within the same folder as the index.js. Please run "npm install inquirer" and "npm install fs" to make sure this app works after grabbing it off GitHub. 
+ To install this application, you must download the GitHub repository and run three seperate commands in your command line within the same folder as the index.js. Run "npm init" , "npm install inquirer" and "npm install fs" to make sure this app works after grabbing it off GitHub. 
  
  
 ## Usage 
  
- To use this application, you must get to the folder that index.js is in and run "node index.js" in your command line. You will then will in the question prompts with relevant information. After the prompts are complete a README.md file is created within the same folder. 
+ To use this application, you must get to the folder that index.js is in and run "node index.js" in your command line. You will then will in the question prompts with relevant information. After the prompts are complete a README.md file is created within the same folder.  
  
  
 ## Credits 
@@ -27,7 +27,7 @@
  
 ## Tests 
  
- You can test this application by running "node index.js" and create your own README.md file. 
+ You can test this application by running "node index.js" and creating your own README.md file. 
  
  
 ## My GitHub Profile 

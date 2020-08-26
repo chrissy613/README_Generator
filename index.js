@@ -22,7 +22,7 @@ const questions = ([
     //ENTER SECTIONS OF THE TABLE OF CONTENTS
     {
         name: "projectTOC",
-        message: "Please enter the names of sections of your table of contents in markdown format seperated by commas."
+        message: "Please enter the names of sections of your table of contents in markdown format."
     },
     //ENTER INSTALLATION INSTRUCTIONS
     {
