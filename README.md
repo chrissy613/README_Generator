@@ -7,7 +7,7 @@
  
 ## Table of Contents 
  
- [Installation](#installation) [Usage](#usage) [Credits](#credits) [Tests](#tests) [My GitHub Profile](#my-github-profile) [My Email Address](#my-email-address) [License](#license) 
+ [Installation](#installation), [Usage](#usage), [Credits](#credits), [Tests](#tests), [My GitHub Profile](#my-github-profile), [My Email Address](#my-email-address), [License](#license) 
  
  
 ## Installation 
