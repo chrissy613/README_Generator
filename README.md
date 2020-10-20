@@ -1,4 +1,4 @@
-# The README Generator Project [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
+# The README Generator [![DC the Don](https://img.shields.io/badge/DC%20-THE%20DON-red)](https://img.shields.io/badge/DC%20-THE%20DON-red) 
  
 ## Project Description 
  
